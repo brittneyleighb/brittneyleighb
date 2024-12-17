@@ -1,5 +1,5 @@
 ## Hello there 👋
-[Obi-Wan](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWM0YXd1Yjh4dmpzNHYwN3hhd3hkOThvNHFrczRnOWJuZXJzOHR0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiIzJSKB4l7xTouE8/giphy.gif)
+![Obi-Wan saying Hello there](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanJ5aHR5ZmxhaDkwMmM5d2swNnA2ODM3YWZ3NGVhbnF4Z285bDluYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BjCWlikTDTN4a8EU0b/giphy.gif)
 
 <!--
 **brittneyleighb/brittneyleighb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
