@@ -1,4 +1,5 @@
-## Hi there 👋
+## Hello there 👋
+[Obi-Wan](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWM0YXd1Yjh4dmpzNHYwN3hhd3hkOThvNHFrczRnOWJuZXJzOHR0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiIzJSKB4l7xTouE8/giphy.gif)
 
 <!--
 **brittneyleighb/brittneyleighb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
