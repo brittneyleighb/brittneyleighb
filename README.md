@@ -7,10 +7,8 @@ What else? Well...Some background: After taking a UX Design course,  I wanted to
 
 I spent the next two years dabbling in various coding languages, but struggling to choose a direction, as I was just fascinated by it all. My ADHD can be a hyperfocusing superpower, but if not supplemented with copious amounts of cardio exercise, it can scatter me. Somehow found myself surfing & hiking in the tropics of Taiwan, wallowing around as I tried to save money in my transition out of education, teaching English, my software engineering dreams quashed by insecure micromanagement and loads of pointless paperwork in wayward for-profit schools, and here I am, back in coding dreamland (two screens and plenty of time to study), finally focusing on app development with JavaScript.
 
-My goal is master Javascript.
-
-- 🔭 I’m currently working on how to go beyond newbie status in JavaScript.
-- 🌱 I’m currently learning JavaScript and creative coding.
+- 🔭 My goal is to master JavaScript.
+- 🌱 I’m currently learning about creative coding.
 - 👯 I’m looking to collaborate on app development.
 - 📫 How to reach me: brittneyleighb@gmail.com
 - ⚡ Fun fact: I'm a snow enthusiast.
