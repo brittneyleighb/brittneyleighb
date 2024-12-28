@@ -5,18 +5,15 @@ Yes, I'm a HUGE Star Wars fan.
 
 What else? Well...Some background: After taking a UX Design course,  I wanted to get an edge for interviews and thought some basic coding skills would help. I tried Harvard CS50 thinking I'd probably dislike it, and LOVED it. It was incredibly challenging, but after about three months of hard work (and basically making it my full-time job), I passed.
 
-I spent the next two years dabbling in various coding languages, but struggling to choose a direction, as I was just fascinated by it all. Somehow found myself hiking in the tropics of Taiwan, wallowing around as I tried to save money in my transition out of education, teaching English, my software engineering dreams quashed by insecure micromanagement and loads of pointless paperword for people who care about profits more than the kids, and here I am, back in coding dreamland, finally focusing on app development with JavaScript.
+I spent the next two years dabbling in various coding languages, but struggling to choose a direction, as I was just fascinated by it all. My ADHD can be a hyperfocusing superpower, but if not managing right and with copious amounts of cardio exercise, can scatter me. Somehow found myself surfing & hiking in the tropics of Taiwan, wallowing around as I tried to save money in my transition out of education, teaching English, my software engineering dreams quashed by insecure micromanagement and loads of pointless paperwork in wayward for-profit schools, and here I am, back in coding dreamland (two screens and plenty of time to study), finally focusing on app development with JavaScript.
 
 My goal is master Javascript.
-
-Here are some ideas to get you started:
 
 - 🔭 I’m currently working on how to go beyond newbie status in JavaScript.
 - 🌱 I’m currently learning JavaScript and creative coding.
 - 👯 I’m looking to collaborate on app development.
 - 📫 How to reach me: brittneyleighb@gmail.com
 - ⚡ Fun fact: I'm a snow enthusiast.
--->
 
 ## Some Stats
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&theme=catppuccin_mocha)
