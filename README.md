@@ -4,9 +4,9 @@
 Yes, I'm a HUGE Star Wars fan!
 
 What else?
-- 🔭 My goal is to master JavaScript.
-- 🌱 I’m currently learning about creative coding.
-- 👯 I’m looking to collaborate on app development.
+- 🔭 My goal is to master Python and JavaScript.
+- 🌱 I’m currently learning about cybersecurity, ethical hacking, and creative coding.
+- 👯 I’m looking to collaborate on app or game development.
 - 📫 How to reach me: brittneyleighb@gmail.com
 - ⚡ Fun fact: I'm an outdoor enthusiast: Camping, snowboarding, hiking, I love it all!
 
