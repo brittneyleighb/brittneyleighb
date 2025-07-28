@@ -11,4 +11,4 @@ What else?
 - ⚡ Fun fact: I'm an outdoor enthusiast: Camping, snowboarding, hiking, I love it all!
 
 ## Some Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&theme=catppuccin_mocha)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&theme=catppuccin_mocha&hide=html,css&langs_count=8)
