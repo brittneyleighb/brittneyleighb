@@ -4,7 +4,7 @@
 I'm currently studying for a Master's in Computer Science! 
 
 What else?
-- 🔭 Currently learning Java.
+- 🔭 Currently working with Java.
 - 🌱 Interested in ethical hacking, creative coding, app development, and game design.
 - 📫 How to reach me: brittneyleighb@gmail.com
 - ⚡ Fun fact: I'm an outdoor enthusiast: Camping, snowboarding, hiking, I love it all!
