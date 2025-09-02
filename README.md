@@ -4,10 +4,9 @@
 I'm currently studying for a Master's in Computer Science! 
 
 What else?
-- 🔭 Learning Java in-depth is my main focus at the moment.
+- 🔭 Currently learning Java in-depth.
 - 🌱 Side questing ethical hacking and game dev.
 - 📫 How to reach me: brittneyleighb@gmail.com
-- ⚡ I'm an outdoor enthusiast: Camping, snowboarding, hiking, I love it all!
 
 ## Some Stats
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&theme=catppuccin_mocha&hide=makefile&langs_count=10)
