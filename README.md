@@ -6,7 +6,6 @@ I'm currently studying for a Master's in Computer Science!
 I've made some resources along the way to help as reference and to share with others:  
 (Feel free to collab on these if you'd like!)  
 ☕[Java Cheatsheet](https://github.com/brittneyleighb/java-cheatsheet)  
-☕[Java Analogies](https://github.com/brittneyleighb/java-analogies)  
 ☕[Java for the Haters (a Definitive Guide), in-progess](https://github.com/brittneyleighb/java-for-the-haters)  
 🐙🐱[Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)  
 
