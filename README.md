@@ -6,7 +6,8 @@ I'm currently studying for a Master's in Computer Science!
 I've made some resources along the way to help as reference and to share with others:  
 (Feel free to collab on these if you'd like!)  
 ☕[Java Cheatsheet](https://github.com/brittneyleighb/java-cheatsheet)  
-☕[Java for Haters (a Survival Guide), in-progess](https://github.com/brittneyleighb/java-for-haters/blob/main/README.md)  
+☕[Java for Haters (a Survival Guide), in-progess](https://github.com/brittneyleighb/java-for-haters/blob/main/README.md)    
+☕[Java Pseudocode Templates](https://github.com/brittneyleighb/java-pseudocode-templates/tree/main)
 🐙🐱[Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)  
 
 What else?
