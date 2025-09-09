@@ -2,6 +2,8 @@
 ## About me
 I'm currently studying for a Master's in Computer Science! 
 
+Currently building [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
+
 I've made some resources along the way to help as reference and to share with others:  
 (Feel free to collab on these if you'd like!)  
 ☕[Java Cheatsheet](https://github.com/brittneyleighb/java-cheatsheet)  
