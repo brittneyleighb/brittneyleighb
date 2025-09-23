@@ -5,7 +5,7 @@ I'm currently studying for a Master's in Computer Science!
 Currently building [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
 
 I've made some resources along the way to help as reference and to share with others:  
-- 🐙🐱[Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)  
+- [Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)🐙🐱  
 - [Gradle Cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
 - [Programming Languages Comparison Guide](https://github.com/brittneyleighb/programming-languages-comparison)
 
