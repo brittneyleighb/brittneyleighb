@@ -11,7 +11,7 @@ I've made some resources along the way to help as reference and to share with ot
 - [Ethical Hacking Cheat Sheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet)
 
 What else?
-- 🔭 Currently focusing on getting an entry-level in Cybersecurity.
+- 🔭 Currently focusing on getting an entry-level job in Cybersecurity.
 - 👩‍💻 Immersed in learning every thing possible about Ethical Hacking.
 - 🌱 Side questing video game development.
 - 💻 Am especially fascinated by Kernel development and understanding the core of an operating system; how it manages system resources like CPU, memory, and hardware devices.
