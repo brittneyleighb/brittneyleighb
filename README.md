@@ -9,6 +9,7 @@ I've made some resources along the way to help as reference and to share with ot
 - [Gradle Cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
 - [Programming Languages Comparison Guide](https://github.com/brittneyleighb/programming-languages-comparison)
 - [Ethical Hacking Cheat Sheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet)
+- [Database Design Master Reference](https://github.com/brittneyleighb/DatabaseDesignMasterReference)
 
 What else?
 - 🔭 Currently focusing on getting an entry-level job in Cybersecurity.
