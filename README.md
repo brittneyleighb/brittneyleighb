@@ -10,6 +10,7 @@ I've made some resources along the way to help as reference and to share with ot
 - [programming-languages-comparison](https://github.com/brittneyleighb/programming-languages-comparison)
 - [ethical-hacking-cheatsheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet): A reference for people learning about Ethical Hacking
 - [linux-command-line-cheatsheet](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet): A reference for Ethical Hackers/Pen Testers.
+- [web-development-cheatsheet](https://github.com/brittneyleighb/web-development-cheatsheet): Based on my graduate course in Distributed Web Applications
 - [database-design-master-reference](https://github.com/brittneyleighb/database-design-master-reference): A comprehensive guide based on my graduate course in Advanced Database Design.
 
 What else?
