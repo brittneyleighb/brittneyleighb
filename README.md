@@ -5,12 +5,12 @@ I'm currently studying for a Master's in Computer Science!
 Currently building [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
 
 I've made some resources along the way to help as reference and to share with others:  
-- [Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)🐙🐱  
-- [Gradle Cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
-- [Programming Languages Comparison Guide](https://github.com/brittneyleighb/programming-languages-comparison)
-- [Ethical Hacking Cheatsheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet)
-- [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet)
-- [Database Design Master Reference](https://github.com/brittneyleighb/DatabaseDesignMasterReference)
+- [git-github-cheatshseet](https://github.com/brittneyleighb/git-github-cheatsheet): Commands for git
+- [gradle-cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
+- [programming-languages-comparison](https://github.com/brittneyleighb/programming-languages-comparison)
+- [ethical-hacking-cheatsheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet): A reference for people learning about Ethical Hacking
+- [linux-command-line-cheatsheet](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet): A reference for Ethical Hackers/Pen Testers.
+- [database-design-master-reference](https://github.com/brittneyleighb/database-design-master-reference): A comprehensive guide based on my graduate course in Advanced Database Design.
 
 What else?
 - 🔭 Currently focusing on getting an entry-level job in Cybersecurity.
