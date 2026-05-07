@@ -5,16 +5,17 @@ I'm currently studying for a Master's in Computer Science!
 Currently building [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
 
 I've made some resources along the way to help as reference and to share with others:  
-- [Git & Github Cheat Sheet](https://github.com/brittneyleighb/git-github-cheatsheet)🐙🐱  
+- [Git & Github Cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)🐙🐱  
 - [Gradle Cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
 - [Programming Languages Comparison Guide](https://github.com/brittneyleighb/programming-languages-comparison)
-- [Ethical Hacking Cheat Sheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet)
+- [Ethical Hacking Cheatsheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet)
+- [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet)
 - [Database Design Master Reference](https://github.com/brittneyleighb/DatabaseDesignMasterReference)
 
 What else?
 - 🔭 Currently focusing on getting an entry-level job in Cybersecurity.
-- 👩‍💻 Immersed in learning every thing possible about Ethical Hacking.
-- 🌱 Side questing video game development.
+- 👩‍💻 Immersed in learning everything possible about Ethical Hacking.
+- 🌱 Side questing indie video game development just for kicks.
 - 💻 Am especially fascinated by Kernel development and understanding the core of an operating system; how it manages system resources like CPU, memory, and hardware devices.
 - 📫 How to reach me: brittneyleighb@gmail.com
 
