@@ -21,4 +21,4 @@ What else?
 - 📫 How to reach me: brittneyleighb@gmail.com
 
 ## Some Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=brittneyleighb&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.shion.dev/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
