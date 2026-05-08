@@ -21,4 +21,4 @@ What else?
 - 📫 How to reach me: brittneyleighb@gmail.com
 
 ## Some Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&theme=tokyonight&title_color=00ffff&text_color=bb9af7&size_weight=0.5&count_weight=0.5&layout=compact&langs_count=8&hide=makefile&cache_seconds=1800)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brittneyleighb&layout=donut&theme=tokyonight&langs_count=8&hide=makefile&size_weight=0.5&count_weight=0.5)
