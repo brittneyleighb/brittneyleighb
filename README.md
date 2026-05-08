@@ -21,4 +21,5 @@ What else?
 - 📫 How to reach me: brittneyleighb@gmail.com
 
 ## Some Stats
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=brittneyleighb&theme=blueberry)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brittneyleighb&theme=blueberry)![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brittneyleighb&theme=blueberry)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=brittneyleighb&theme=blueberry)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brittneyleighb&theme=blueberry&utcOffset=8)
