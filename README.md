@@ -21,4 +21,4 @@ What else?
 - 📫 How to reach me: brittneyleighb@gmail.com
 
 ## Some Stats
-[![Top Langs](https://github-readme-stats.shion.dev/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
