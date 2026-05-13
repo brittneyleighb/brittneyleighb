@@ -5,6 +5,7 @@ I'm currently studying for a Master's in Computer Science!
 Currently building [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
 
 I've made some resources along the way to help as reference and to share with others:  
+- [react-master-reference](https://github.com/brittneyleighb/react-master-reference): A huge reference for all things React.
 - [git-github-cheatshseet](https://github.com/brittneyleighb/git-github-cheatsheet): Commands for git
 - [gradle-cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
 - [programming-languages-comparison](https://github.com/brittneyleighb/programming-languages-comparison)
