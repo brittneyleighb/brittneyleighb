@@ -15,7 +15,7 @@ I've made some resources along the way to help as reference and to share with ot
 - [database-design-master-reference](https://github.com/brittneyleighb/database-design-master-reference): A comprehensive guide based on my graduate course in Advanced Database Design.
 
 What else?
-- 🔭 Currently focusing on getting an entry-level job in Cybersecurity.
+- 🔭 Currently focusing on getting an entry-level job in literally anything in the tech industry.
 - 👩‍💻 Immersed in learning everything possible about Ethical Hacking.
 - 🌱 Side questing indie video game development just for kicks.
 - 💻 Am especially fascinated by Kernel development and understanding the core of an operating system; how it manages system resources like CPU, memory, and hardware devices.
