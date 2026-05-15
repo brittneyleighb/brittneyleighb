@@ -8,6 +8,7 @@ Personal projects:
 - [Ghostline Recon](https://github.com/brittneyleighb/ghostline-recon) a Bash reconnaissance script that gathers local system intelligence.
 - [Mini Port Scanner](https://github.com/brittneyleighb/mini-port-scanner), a lightweight Python port scanner built to explore basic networking, TCP connections, and ethical hacking fundamentals.
 - [Neural Trace](https://github.com/brittneyleighb/neural-trace), an interactive Bash-based CLI tool that performs local system reconnaissance and translates raw OS signals (processes, network activity, open ports, uptime, etc.) into understandable security insights with guided recommendations, with the option to integrate an AI API (I used OpenAI).
+- [Daily Coffee App](https://github.com/brittneyleighb/daily-coffee), a daily coffee (not quite functional yet, but looks nice right?)
 
 Notes from courses:
 - [Harvard CS50](https://github.com/brittneyleighb/harvard-cs50-2023-notes), Harvard CS50 2023
