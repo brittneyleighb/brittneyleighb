@@ -4,6 +4,14 @@ I'm currently studying for a Master's in Computer Science!
 
 Personal projects:
 - [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
+- ["Treasure Hunt"](https://github.com/brittneyleighb/treasure-hunt), a pirate game in Bash.
+- [Ghostline Recon](https://github.com/brittneyleighb/ghostline-recon) a Bash reconnaissance script that gathers local system intelligence.
+- [Mini Port Scanner](https://github.com/brittneyleighb/mini-port-scanner), a lightweight Python port scanner built to explore basic networking, TCP connections, and ethical hacking fundamentals.
+- [Neural Trace](https://github.com/brittneyleighb/neural-trace), an interactive Bash-based CLI tool that performs local system reconnaissance and translates raw OS signals (processes, network activity, open ports, uptime, etc.) into understandable security insights with guided recommendations, with the option to integrate an AI API (I used OpenAI).
+
+Notes from courses:
+- [Harvard CS50](https://github.com/brittneyleighb/harvard-cs50-2023-notes), Harvard CS50 2023
+- [Design of Operating Systems](https://github.com/brittneyleighb/notes-on-operating-systems), Design of Operating Systems, Fall 2025
 
 I've made some resources along the way to help as reference and to share with others:  
 - [react-master-reference](https://github.com/brittneyleighb/react-master-reference): A guide for all things React.
