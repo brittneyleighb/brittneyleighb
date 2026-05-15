@@ -11,8 +11,8 @@ Personal projects:
 - [Daily Coffee App](https://github.com/brittneyleighb/daily-coffee), a daily coffee (not quite functional yet, but looks nice right?)
 
 Notes from courses:
-- [Harvard CS50](https://github.com/brittneyleighb/harvard-cs50-2023-notes), Harvard CS50 2023
-- [Design of Operating Systems](https://github.com/brittneyleighb/notes-on-operating-systems), Design of Operating Systems, Fall 2025
+- [Harvard CS50](https://github.com/brittneyleighb/harvard-cs50-2023-notes), 2023
+- [Design of Operating Systems](https://github.com/brittneyleighb/notes-on-operating-systems), Fall 2025
 
 I've made some resources along the way to help as reference and to share with others:  
 - [react-master-reference](https://github.com/brittneyleighb/react-master-reference): A guide for all things React.
