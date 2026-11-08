@@ -28,7 +28,7 @@ def get_days(username: str, token: str, today: date) -> list[tuple[date, int]]:
     variables = {
         "login": username,
         "from": f"{start.isoformat()}T00:00:00Z",
-        "to": f"{today.isoformat()}T23:59:59Z",
+        "to": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
     body = json.dumps({"query": QUERY, "variables": variables}).encode("utf-8")
     request = urllib.request.Request(
