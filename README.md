@@ -1,36 +1,54 @@
-![Obi-Wan saying Hello there](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanJ5aHR5ZmxhaDkwMmM5d2swNnA2ODM3YWZ3NGVhbnF4Z285bDluYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BjCWlikTDTN4a8EU0b/giphy.gif)
-## About me
-I'm currently studying for a Master's in Computer Science! 
+<div align="center">
 
-Personal projects:
-- [Café Nebula](https://github.com/brittneyleighb/cafe-nebula), a Java Game Engine.
-- ["Treasure Hunt"](https://github.com/brittneyleighb/treasure-hunt), a pirate game in Bash.
-- [Ghostline Recon](https://github.com/brittneyleighb/ghostline-recon) a Bash reconnaissance script that gathers local system intelligence.
-- [Mini Port Scanner](https://github.com/brittneyleighb/mini-port-scanner), a lightweight Python port scanner built to explore basic networking, TCP connections, and ethical hacking fundamentals.
-- [Neural Trace](https://github.com/brittneyleighb/neural-trace), an interactive Bash-based CLI tool that performs local system reconnaissance and translates raw OS signals (processes, network activity, open ports, uptime, etc.) into understandable security insights with guided recommendations, with the option to integrate an AI API (I used OpenAI).
-- [Daily Coffee App](https://github.com/brittneyleighb/daily-coffee), mostly Typscript (not quite functional yet, but looks nice right?)
+![Animated matrix-inspired code rain in an obsidian editorial banner reading Brittney Leigh Banning, Systems Software and Creative Engineering](assets/matrix-rain.svg)
 
-Notes from courses:
-- [Harvard CS50](https://github.com/brittneyleighb/harvard-cs50-2023-notes), 2023
-- [Design of Operating Systems](https://github.com/brittneyleighb/notes-on-operating-systems), Fall 2025
+**I build where low-level systems meet thoughtful human interfaces.**
 
-I've made some resources along the way to help as reference and to share with others:  
-- [react-master-reference](https://github.com/brittneyleighb/react-master-reference): A guide for all things React.
-- [git-github-cheatshseet](https://github.com/brittneyleighb/git-github-cheatsheet): Commands for git
-- [gradle-cheatsheet](https://github.com/brittneyleighb/gradle-cheatsheet/tree/main)
-- [programming-languages-comparison](https://github.com/brittneyleighb/programming-languages-comparison)
-- [ethical-hacking-cheatsheet](https://github.com/brittneyleighb/ethical-hacking-cheatsheet): A reference for people learning about Ethical Hacking
-- [linux-command-line-cheatsheet](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet): A reference for Ethical Hackers/Pen Testers.
-- [web-development-cheatsheet](https://github.com/brittneyleighb/web-development-cheatsheet): Based on my graduate course in Distributed Web Applications
-- [database-design-master-reference](https://github.com/brittneyleighb/database-design-master-reference): A comprehensive guide based on my graduate course in Advanced Database Design.
+[**BIT FOUNDRY LABS**](https://github.com/bit-foundry-labs) &nbsp; / &nbsp; [**SELECTED BUILDS**](#selected-builds) &nbsp; / &nbsp; [**FIELD NOTES**](#field-notes)
 
-What else?
-- 🔭 Currently focusing on getting an entry-level job in literally anything in the tech industry.
-- 👩‍💻 Immersed in learning everything possible about Ethical Hacking.
-- 🌱 Side questing indie video game development just for kicks.
-- 💻 Am especially fascinated by Kernel development and understanding the core of an operating system; how it manages system resources like CPU, memory, and hardware devices.
-- 📫 How to reach me: brittneyleighb@gmail.com
+</div>
 
-## Some Stats
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=brittneyleighb&theme=blueberry)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brittneyleighb&theme=blueberry) ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brittneyleighb&theme=blueberry)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=brittneyleighb&theme=blueberry) ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brittneyleighb&theme=blueberry&utcOffset=8)
+<br>
+
+### 00 / THE WORK
+
+I'm a computer science master's student drawn to the machinery most people never see: kernels, concurrency, distributed systems, programming languages, and the protocols holding everything together.
+
+I'm equally interested in what people *do* see. Software can be technically rigorous and still feel surprising, intuitive, and beautiful. My work moves between those two layers.
+
+These days, I'm exploring how to build an operating system from the ground up, developing bounded developer agents at [Bit Foundry Labs](https://github.com/bit-foundry-labs), and experimenting with more expressive interfaces.
+
+> The questions I keep coming back to: **How does it work beneath the surface? What happens when we redesign it from first principles?**
+
+### 01 / SELECTED BUILDS
+
+| Project | Inside the machine |
+| :--- | :--- |
+| [**ForgeLoop ↗**](https://github.com/bit-foundry-labs/forge-loop) | Experimental, local-first developer automation. Persistent objectives, bounded execution, isolated worktrees, and human review gates. |
+| [**Raft KV Store ↗**](https://github.com/brittneyleighb/raft-project) | A simplified Java distributed key-value store with leader election, heartbeats, log replication, and quorum-based commits. |
+| [**Neural Trace ↗**](https://github.com/brittneyleighb/neural-trace) | Bash-based Linux system reconnaissance that turns process, network, and port signals into understandable security insights. |
+| [**Café Nebula ↗**](https://github.com/brittneyleighb/cafe-nebula) | An early-stage Java game-engine experiment using LWJGL and OpenGL. |
+| [**Ándale ↗**](https://github.com/bit-foundry-labs/andale-spanish-app) | A Mexican-Spanish language learning experiment built around contextual cloze practice and editorial interface design. |
+
+### 02 / RESEARCH INTERESTS
+
+`KERNEL ARCHITECTURE` &nbsp; `OPERATING SYSTEMS` &nbsp; `DISTRIBUTED CONSENSUS` &nbsp; `COMPILERS & LANGUAGES` &nbsp; `HUMAN-COMPUTER INTERACTION`
+
+My north star: build systems that are understandable enough to study, trustworthy enough to use, and distinctive enough to remember.
+
+### 03 / FIELD NOTES
+
+I publish rough edges and learning materials too, not just finished work.
+
+- [**Design of Operating Systems**](https://github.com/brittneyleighb/notes-on-operating-systems) / course notes on OS internals.
+- [**Database Design Master Reference**](https://github.com/brittneyleighb/database-design-master-reference) / a learning reference on database architecture.
+- [**Programming Languages Comparison**](https://github.com/brittneyleighb/programming-languages-comparison) / comparing languages through their design decisions.
+- [**Git & GitHub Cheatsheet**](https://github.com/brittneyleighb/git-github-cheatsheet) / practical command reference.
+
+### 04 / ELSEWHERE
+
+Building under [**Bit Foundry Labs**](https://github.com/bit-foundry-labs). Open to conversations about backend engineering, developer tools, and systems research.
+
+**Contact:** [Email](mailto:brittneyleighb@gmail.com) · [GitHub](https://github.com/brittneyleighb)
+
+<sub>Original animated artwork lives in [assets/matrix-rain.svg](assets/matrix-rain.svg). It uses self-contained SVG/CSS; no scripts, web services, or external image dependencies. Motion is disabled when reduced motion is preferred.</sub>
