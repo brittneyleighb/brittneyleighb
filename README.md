@@ -8,6 +8,8 @@
 
 </div>
 
+![90-day contribution signal, generated daily from public GitHub activity](assets/contribution-pulse.svg)
+
 ## Projects
 
 ![Project map, grouping five repositories into systems, developer tools, and interfaces](assets/project-map.svg)
