@@ -1,0 +1,37 @@
+name: Update contribution pulse
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 11 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contribution-pulse
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test chart generator
+        run: python -m unittest discover -s scripts -p 'test_pulse.py' -v
+      - name: Query public contributions and redraw SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: brittneyleighb
+        run: python scripts/update_pulse.py
+      - name: Commit generated graph if changed
+        run: |
+          git add assets/contribution-pulse.svg
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh contribution pulse'
+            git push
+          fi
