@@ -1,6 +1,6 @@
 <div align="center">
 
-![Brittney Leigh Banning, animated emerald matrix rain](assets/matrix-rain.svg)
+![Brittney Leigh Banning, animated emerald matrix rain](assets/matrix-rain.gif)
 
 **Computer science MS student. Into operating systems, distributed systems, developer tools, and making software look good.**
 
