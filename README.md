@@ -1,6 +1,6 @@
 <div align="center">
 
-![Brittney Leigh Banning: unified Matrix rain, 90-day contribution signal, and project topology](assets/profile-composite.svg)
+![Brittney Leigh Banning: unified Matrix rain, 90-day contribution signal, and project topology](assets/profile-composite.gif)
 
 **Computer science MS student. Into operating systems, distributed systems, developer tools, and making software look good.**
 
