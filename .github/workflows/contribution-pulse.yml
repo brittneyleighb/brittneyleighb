@@ -2,6 +2,13 @@ name: Update contribution pulse
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/matrix-rain.svg'
+      - 'scripts/render_matrix_gif.py'
+      - 'scripts/update_pulse.py'
+      - '.github/workflows/contribution-pulse.yml'
   schedule:
     - cron: '37 11 * * *'
 
@@ -23,12 +30,7 @@ jobs:
           python-version: '3.12'
       - name: Test chart generator
         run: python -m unittest discover -s scripts -p 'test_pulse.py' -v
-      - name: Query public contributions and redraw SVG
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: brittneyleighb
-        run: python scripts/update_pulse.py
-      - name: Render GitHub-compatible Matrix GIF on first sync
+      - name: Render GitHub-compatible Matrix GIF if SVG changed
         run: |
           # Regenerate only when the editable SVG changes (or the stamp is absent).
           SOURCE_HASH="$(sha256sum assets/matrix-rain.svg | cut -d ' ' -f1)"
@@ -39,6 +41,13 @@ jobs:
             printf '%s\n' "$SOURCE_HASH" > assets/matrix-rain.svg.sha256
             python -c "from pathlib import Path; p = Path('README.md'); p.write_text(p.read_text(encoding='utf-8').replace('assets/matrix-rain.svg', 'assets/matrix-rain.gif', 1), encoding='utf-8')"
           fi
+      - name: Query public contributions and redraw SVG
+        id: pulse
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: brittneyleighb
+        run: python scripts/update_pulse.py
       - name: Commit generated assets if changed
         run: |
           git add assets/contribution-pulse.svg assets/matrix-rain.gif assets/matrix-rain.svg.sha256 README.md
@@ -46,3 +55,8 @@ jobs:
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh live profile graphics'
             git push
           fi
+      - name: Report contribution query failure
+        if: steps.pulse.outcome == 'failure'
+        run: |
+          echo "::error::Contribution update failed; Matrix GIF was still processed."
+          exit 1
