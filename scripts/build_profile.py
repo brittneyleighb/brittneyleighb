@@ -74,7 +74,7 @@ def update_activity(days: list[tuple]) -> None:
     date_label.text = f"{days[0][0].isoformat()}  /  {days[-1][0].isoformat()}"
     description.text = (
         "One unified editorial graphic: Matrix rain, public contribution activity, "
-        "and selected projects. "
+        "selected projects, and three active builds: Embers Kernel open-source research, Emberglass OS, and Mindful Moments. "
         f"{sum(counts)} public contributions from {days[0][0]} through {days[-1][0]}."
     )
     tree.write(SOURCE, encoding="unicode", xml_declaration=False)
