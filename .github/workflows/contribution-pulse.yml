@@ -30,14 +30,18 @@ jobs:
         run: python scripts/update_pulse.py
       - name: Render GitHub-compatible Matrix GIF on first sync
         run: |
-          if [ ! -f assets/matrix-rain.gif ]; then
+          # Regenerate only when the editable SVG changes (or the stamp is absent).
+          SOURCE_HASH="$(sha256sum assets/matrix-rain.svg | cut -d ' ' -f1)"
+          LAST_HASH="$(cat assets/matrix-rain.svg.sha256 2>/dev/null || true)"
+          if [ ! -f assets/matrix-rain.gif ] || [ "$SOURCE_HASH" != "$LAST_HASH" ]; then
             python -m pip install --disable-pip-version-check 'CairoSVG>=2.7,<3' 'Pillow>=10,<13'
             python scripts/render_matrix_gif.py
+            printf '%s\n' "$SOURCE_HASH" > assets/matrix-rain.svg.sha256
             python -c "from pathlib import Path; p = Path('README.md'); p.write_text(p.read_text(encoding='utf-8').replace('assets/matrix-rain.svg', 'assets/matrix-rain.gif', 1), encoding='utf-8')"
           fi
       - name: Commit generated assets if changed
         run: |
-          git add assets/contribution-pulse.svg assets/matrix-rain.gif README.md
+          git add assets/contribution-pulse.svg assets/matrix-rain.gif assets/matrix-rain.svg.sha256 README.md
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh live profile graphics'
             git push

@@ -22,7 +22,7 @@
 
 ## Currently
 
-Building a kernel from scratch, exploring AI-native operating systems, and working on local-first developer agents.
+Building apps, games, developer tools, and systems software. I care about innovation, creativity, beautiful design, and software that feels clean and efficient under the hood.
 
 ## Notes
 
