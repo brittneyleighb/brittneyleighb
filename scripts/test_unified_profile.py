@@ -35,6 +35,10 @@ class UnifiedProfileTests(unittest.TestCase):
         self.assertIn("BRITTNEY</text>", text)
         self.assertIn("contribution-bars", text)
         self.assertIn("PROJECT TOPOLOGY", text)
+        self.assertIn("Embers Kernel", text)
+        self.assertIn("Emberglass OS", text)
+        self.assertIn("Mindful Moments", text)
+        self.assertIn('aria-label="OPEN SOURCE RESEARCH"', text)
         self.assertIn("data-rain=", text)
 
     def test_chart_update_uses_real_counts_and_does_not_overlap(self):
