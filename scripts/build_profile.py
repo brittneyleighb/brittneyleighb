@@ -55,10 +55,10 @@ def update_activity(days: list[tuple]) -> None:
     for index, count in enumerate(counts):
         x = 72 + index * 11.9
         height = (110 * math.sqrt(count / maximum)) if count else 0
-        top = 560 - height
+        top = 572 - height
         if count:
             ET.SubElement(chart, f"{NS}line", {
-                "x1": f"{x:.1f}", "y1": "560", "x2": f"{x:.1f}", "y2": f"{top:.1f}",
+                "x1": f"{x:.1f}", "y1": "572", "x2": f"{x:.1f}", "y2": f"{top:.1f}",
                 "stroke": "#91e8aa", "stroke-width": "3.2", "stroke-linecap": "round"
             })
             ET.SubElement(chart, f"{NS}circle", {
@@ -66,7 +66,7 @@ def update_activity(days: list[tuple]) -> None:
             })
         else:
             ET.SubElement(chart, f"{NS}line", {
-                "x1": f"{x:.1f}", "y1": "560", "x2": f"{x:.1f}", "y2": "558",
+                "x1": f"{x:.1f}", "y1": "572", "x2": f"{x:.1f}", "y2": "570",
                 "stroke": "#416f56", "stroke-width": "2"
             })
 
