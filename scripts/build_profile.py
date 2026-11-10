@@ -128,6 +128,14 @@ def main() -> None:
 
     render_gif()
 
+    # Keep the branch preview as an SVG; use the animated version on the
+    # published profile after the first successful GitHub Actions run.
+    readme = ROOT / "README.md"
+    body = readme.read_text(encoding="utf-8")
+    updated = body.replace("assets/profile-composite.svg", "assets/profile-composite.gif")
+    if updated != body:
+        readme.write_text(updated, encoding="utf-8")
+
 
 if __name__ == "__main__":
     main()
