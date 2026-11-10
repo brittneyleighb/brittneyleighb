@@ -33,7 +33,7 @@
 <text x="70" y="124" font-family="ui-monospace,Consolas,Monaco,monospace" font-size="13" letter-spacing="3.6" fill="#A7E9BB">SYSTEMS SOFTWARE  /  CREATIVE ENGINEERING</text>
 <g role="img" aria-label="BRITTNEY" transform="translate(68 222) scale(0.099 -0.099)" fill="#f5f2e9"><use xlink:href="#engr-B" x="0"/><use xlink:href="#engr-R" x="726"/><use xlink:href="#engr-I" x="1396"/><use xlink:href="#engr-T" x="1788"/><use xlink:href="#engr-T" x="2468"/><use xlink:href="#engr-N" x="3148"/><use xlink:href="#engr-E" x="3893"/><use xlink:href="#engr-Y" x="4603"/></g>
 <g role="img" aria-label="LEIGH BANNING" transform="translate(71 283) scale(0.06 -0.06)" fill="#e7e4d9"><use xlink:href="#engr-L" x="0"/><use xlink:href="#engr-E" x="665"/><use xlink:href="#engr-I" x="1383"/><use xlink:href="#engr-G" x="1783"/><use xlink:href="#engr-H" x="2498"/><use xlink:href="#engr-B" x="3576"/><use xlink:href="#engr-A" x="4310"/><use xlink:href="#engr-N" x="5078"/><use xlink:href="#engr-N" x="5831"/><use xlink:href="#engr-I" x="6584"/><use xlink:href="#engr-N" x="6984"/><use xlink:href="#engr-G" x="7737"/></g>
-<rect class="cursor" x="586" y="250" width="4" height="34" rx="1" fill="#A4FBAB"/>
+<rect class="cursor" x="610" y="250" width="4" height="34" rx="1" fill="#A4FBAB"/>
 <text x="69" y="358" font-family="ui-monospace,Consolas,Monaco,monospace" font-size="12" letter-spacing="2.2" fill="#B0C8BD">MS COMPUTER SCIENCE    ·    BUILDING BELOW THE SURFACE</text>
 <text x="1162" y="358" font-family="ui-monospace,Consolas,Monaco,monospace" font-size="12" letter-spacing="2.1" fill="#9ECCB1" text-anchor="end">© 2026  //  BUILD LOG</text>
 </svg>
