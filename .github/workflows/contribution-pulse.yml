@@ -11,6 +11,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'assets/profile-composite.svg'
       - 'scripts/build_profile.py'
       - 'scripts/update_pulse.py'
       - '.github/workflows/contribution-pulse.yml'
