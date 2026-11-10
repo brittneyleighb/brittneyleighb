@@ -1,6 +1,6 @@
 <div align="center">
 
-![Brittney Leigh Banning, animated emerald matrix rain](assets/matrix-rain.gif)
+![Brittney Leigh Banning: unified Matrix rain, 90-day contribution signal, and project topology](assets/profile-composite.svg)
 
 **Computer science MS student. Into operating systems, distributed systems, developer tools, and making software look good.**
 
@@ -8,11 +8,7 @@
 
 </div>
 
-![90-day contribution signal, generated daily from public GitHub activity](assets/contribution-pulse.svg)
-
 ## Projects
-
-![Project map, grouping five repositories into systems, developer tools, and interfaces](assets/project-map.svg)
 
 **Systems:** [Raft KV Store](https://github.com/brittneyleighb/raft-project) · [Neural Trace](https://github.com/brittneyleighb/neural-trace)
 

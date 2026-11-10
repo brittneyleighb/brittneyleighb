@@ -1,12 +1,17 @@
-name: Update contribution pulse
+name: Update unified profile graphic
 
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - 'assets/profile-composite.svg'
+      - 'scripts/build_profile.py'
+      - 'scripts/test_unified_profile.py'
+      - '.github/workflows/contribution-pulse.yml'
   push:
     branches: [main]
     paths:
-      - 'assets/matrix-rain.svg'
-      - 'scripts/render_matrix_gif.py'
+      - 'scripts/build_profile.py'
       - 'scripts/update_pulse.py'
       - '.github/workflows/contribution-pulse.yml'
   schedule:
@@ -16,47 +21,40 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-contribution-pulse
+  group: unified-profile-graphic
   cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test chart generator
-        run: python -m unittest discover -s scripts -p 'test_pulse.py' -v
-      - name: Render GitHub-compatible Matrix GIF if SVG changed
-        run: |
-          # Regenerate only when the editable SVG changes (or the stamp is absent).
-          SOURCE_HASH="$(sha256sum assets/matrix-rain.svg | cut -d ' ' -f1)"
-          LAST_HASH="$(cat assets/matrix-rain.svg.sha256 2>/dev/null || true)"
-          if [ ! -f assets/matrix-rain.gif ] || [ "$SOURCE_HASH" != "$LAST_HASH" ]; then
-            python -m pip install --disable-pip-version-check 'CairoSVG>=2.7,<3' 'Pillow>=10,<13'
-            python scripts/render_matrix_gif.py
-            printf '%s\n' "$SOURCE_HASH" > assets/matrix-rain.svg.sha256
-            python -c "from pathlib import Path; p = Path('README.md'); p.write_text(p.read_text(encoding='utf-8').replace('assets/matrix-rain.svg', 'assets/matrix-rain.gif', 1), encoding='utf-8')"
-          fi
-      - name: Query public contributions and redraw SVG
-        id: pulse
-        continue-on-error: true
+      - name: Install image rendering dependencies
+        run: python -m pip install --disable-pip-version-check 'CairoSVG>=2.7,<3' 'Pillow>=10,<13'
+      - name: Validate chart and SVG logic
+        run: python -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: Update activity and render animated composite
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: brittneyleighb
-        run: python scripts/update_pulse.py
-      - name: Commit generated assets if changed
+        run: python scripts/build_profile.py
+      - name: Upload review preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified-profile-preview
+          path: |
+            assets/profile-composite.svg
+            assets/profile-composite.gif
+      - name: Commit updated artwork
+        if: github.event_name != 'pull_request'
         run: |
-          git add assets/contribution-pulse.svg assets/matrix-rain.gif assets/matrix-rain.svg.sha256 README.md
+          git add assets/profile-composite.svg assets/profile-composite.gif README.md
           if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh live profile graphics'
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh unified profile artwork'
             git push
           fi
-      - name: Report contribution query failure
-        if: steps.pulse.outcome == 'failure'
-        run: |
-          echo "::error::Contribution update failed; Matrix GIF was still processed."
-          exit 1
