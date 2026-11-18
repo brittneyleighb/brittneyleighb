@@ -10,7 +10,7 @@
 
 <div align="center">
 
-![Animated green phosphor terminal showing current technical focus](assets/retro-terminal.svg)
+[![Animated green phosphor terminal showing current technical focus](assets/retro-terminal.svg)](https://github.com/bit-foundry-labs/embers-kernel)
 
 ![Rotating roles](assets/role-loop.svg)
 
