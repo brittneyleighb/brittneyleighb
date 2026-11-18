@@ -250,7 +250,7 @@ $ gfortran -std=f2008 flat_white.f90 && ./a.out
 Flat white ready.
 ```
 
-![Animated terminal compiling a flat white](assets/flat-white-compiler-v2.gif)
+![Animated terminal compiling a flat white](assets/flat-white-compiler-v3.gif)
 
 *Enjoy coding with your coffee.*
 
