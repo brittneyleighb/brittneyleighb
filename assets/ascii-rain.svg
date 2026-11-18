@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-labelledby="title desc">
+  <title id="title">Animated ASCII character rain</title>
+  <desc id="desc">A looping green falling-character animation made from ASCII glyphs.</desc>
+  <rect width="960" height="190" rx="8" fill="#020b05"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#62ff99" opacity=".92">
+    <g opacity="0">
+      <text x="72" y="30">0        /             1        .              0</text>
+      <text x="72" y="58">|        {      &gt;      |        :              |</text>
+      <text x="72" y="86">v        1      _      v        +              v</text>
+      <text x="72" y="114">.        |      /      .        0              .</text>
+      <text x="72" y="142">         v      {               |</text>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.20;.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="72" y="30">         /             .        1              </text>
+      <text x="72" y="58">0        {      &gt;      1        :              0</text>
+      <text x="72" y="86">|        1      _      |        +              |</text>
+      <text x="72" y="114">v        |      /      v        0              v</text>
+      <text x="72" y="142">.        v      {      .        |              .</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.20;.25;.45;.50" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="72" y="30">                  &gt;      .        1           0</text>
+      <text x="72" y="58">         /      _      1        :              |</text>
+      <text x="72" y="86">0        {      /      |        +              v</text>
+      <text x="72" y="114">|        1      {      v        0              .</text>
+      <text x="72" y="142">v        |             .        |</text>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.45;.50;.52;.55;.72;.77" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="72" y="30">0                        .        1           </text>
+      <text x="72" y="58">         /      &gt;      1        :              0</text>
+      <text x="72" y="86">         {      _      |        +              |</text>
+      <text x="72" y="114">0        1      /      v        0              v</text>
+      <text x="72" y="142">|        |      {      .        |              .</text>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.70;.74;.76;.77;.80;.82;.97;1" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect width="960" height="190" rx="8" fill="none" stroke="#34de70" stroke-opacity=".32"/>
+</svg>
