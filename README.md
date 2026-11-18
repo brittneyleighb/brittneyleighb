@@ -14,9 +14,11 @@
 
 ```text
 $ cat /now
-RESEARCH   Embers Kernel: capabilities, IPC, and memory ownership
-BUILDING   Sakura Study App and Mindful Moments
-STUDYING   Internet Architecture & Protocols
+RESEARCH    Embers Kernel: capabilities, IPC, and memory ownership
+BUILDING    Sakura Study App: daily study activities and iPad/iPhone release work
+SHIPPING    Mindful Moments: bilingual activities and saved journal entries
+MAINTAINING Forge Loop: local agent approvals, limits, and evidence reporting
+STUDYING    Internet Architecture & Protocols
 ```
 
 ```text
@@ -110,6 +112,28 @@ APPLICATION WORK
 
 </details>
 
+<details>
+<summary><code>$ open sakura-study-app --details</code></summary>
+
+<br>
+
+**Target:** iPad and iPhone release  
+**Current focus:** a 365-day activity catalogue, product design, and store-submission preparation  
+**Availability:** private app project
+
+</details>
+
+<details>
+<summary><code>$ open raft-kv-store --details</code></summary>
+
+<br>
+
+**Stack:** Java  
+**Scope:** distributed key-value-store coursework exploring Raft terms, vote requests, and leader-election behavior  
+**Public repository:** [brittneyleighb/raft-project](https://github.com/brittneyleighb/raft-project)
+
+</details>
+
 ## /project-index
 
 **Systems:** [Raft KV Store](https://github.com/brittneyleighb/raft-project) · [Neural Trace](https://github.com/brittneyleighb/neural-trace)
@@ -139,9 +163,47 @@ I care about:
 
 <br>
 
+```fortran
+! flat_white.f90 — pseudo-hardware recipe, Fortran 2008
+program flat_white
+  implicit none
+
+  real, parameter :: espresso_ml = 36.0
+  real, parameter :: milk_ml     = 120.0
+  real, parameter :: milk_c      = 60.0
+
+  call grind_fine()
+  call pull_shot(espresso_ml)
+  call steam_microfoam(milk_ml, milk_c)
+  call pour("thin", "rosetta optional")
+
+contains
+
+  subroutine grind_fine()
+    print *, "Grinding beans..."
+  end subroutine grind_fine
+
+  subroutine pull_shot(volume)
+    real, intent(in) :: volume
+    print *, "Pulling ", volume, " ml double espresso."
+  end subroutine pull_shot
+
+  subroutine steam_microfoam(volume, temperature)
+    real, intent(in) :: volume, temperature
+    print *, "Steaming ", volume, " ml milk to ", temperature, " C."
+  end subroutine steam_microfoam
+
+  subroutine pour(texture, finish)
+    character(*), intent(in) :: texture, finish
+    print *, "Pouring ", texture, " microfoam; ", finish
+  end subroutine pour
+
+end program flat_white
+```
+
 ```text
-make: *** No hardware target detected. Stop.
-hint: back to the keyboard.
+$ gfortran -std=f2008 flat_white.f90 && ./a.out
+Flat white ready.
 ```
 
 </details>
