@@ -198,12 +198,37 @@ APPLICATION WORK
 
 ```text
 $ cat /off-duty
-SCREEN     Star Wars · The Matrix
-BOOKS      favorites → https://www.goodreads.com/review/list/30212405-brittney-leigh?tag=favorites
 INTERESTS  travel · architecture · interior design
 ```
 
-A soft spot for imagined worlds, lived-in spaces, and places that make you look twice.
+<details>
+<summary><code>$ ls favorite-films</code></summary>
+
+<br>
+
+*Star Wars* · *The Matrix* · *Requiem for a Dream* · *Fight Club* · *A Walk to Remember* · *2001: A Space Odyssey* · *Interstellar*
+
+</details>
+
+<details>
+<summary><code>$ ls favorite-books</code></summary>
+
+<br>
+
+- *The Count of Monte Cristo* — Alexandre Dumas
+- *The Three Musketeers* — Alexandre Dumas
+- *Les Misérables* — Victor Hugo
+- *Pride and Prejudice* — Jane Austen
+- *Walden* — Henry David Thoreau
+- *Ready Player One* — Ernest Cline
+- *Less Is More: How Degrowth Will Save the World* — Jason Hickel
+- [*The Divide: A Brief Guide to Global Inequality and Its Solutions*](https://www.goodreads.com/book/show/32603498-the-divide "The Divide: A Brief Guide to Global Inequality and its Solutions") — Jason Hickel
+- *Harry Potter* — J. K. Rowling
+- *The Prophet* — Khalil Gibran
+- *The Giving Tree* — Shel Silverstein
+- [*Awakening the Luminous Mind: Tibetan Meditation for Inner Peace and Joy*](https://www.goodreads.com/book/show/13227894-awakening-the-luminous-mind "Awakening The Luminous Mind: Tibetan Meditation for Inner Peace and Joy") — Tenzin Wangyal Rinpoche
+
+</details>
 
 ## /field-notes
 
