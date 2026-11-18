@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="72" viewBox="0 0 960 72" role="img" aria-label="Rotating engineering roles">
 <rect width="960" height="72" rx="8" fill="#020b05"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" fill="#73ffa7">
-<text x="28" y="44" opacity="0">$ role: systems researcher<animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;.25;.30;.95;1" dur="6s" repeatCount="indefinite"/></text>
-<text x="28" y="44" opacity="0">$ role: application builder<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.30;.55;.60;1" dur="6s" repeatCount="indefinite"/></text>
-<text x="28" y="44" opacity="0">$ role: developer-tool designer<animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.55;.60;.65;.70;.95;1" dur="6s" repeatCount="indefinite"/></text>
+<text x="28" y="44" opacity="0">$ role: systems researcher<animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;.20;.25;.95;1" dur="8s" repeatCount="indefinite"/></text>
+<text x="28" y="44" opacity="0">$ role: application builder<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.20;.25;.45;.50;1" dur="8s" repeatCount="indefinite"/></text>
+<text x="28" y="44" opacity="0">$ role: developer-tool designer<animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.45;.50;.70;.75;.95;1" dur="8s" repeatCount="indefinite"/></text>
+<text x="28" y="44" opacity="0">$ role: software designer<animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.70;.75;.77;.78;.80;.82;.95;1" dur="8s" repeatCount="indefinite"/></text>
 <rect x="405" y="26" width="11" height="23" fill="#73ffa7"><animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/></rect>
 </g><rect width="960" height="72" rx="8" fill="none" stroke="#34de70" stroke-opacity=".3"/></svg>
