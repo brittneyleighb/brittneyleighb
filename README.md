@@ -194,6 +194,17 @@ APPLICATION WORK
 
 **Apps + games:** [Café Nebula](https://github.com/brittneyleighb/cafe-nebula) · Ándale (private)
 
+## /off-duty
+
+```text
+$ cat /off-duty
+SCREEN     Star Wars · The Matrix
+BOOKS      favorites → https://www.goodreads.com/review/list/30212405-brittney-leigh?tag=favorites
+INTERESTS  travel · architecture · interior design
+```
+
+A soft spot for imagined worlds, lived-in spaces, and places that make you look twice.
+
 ## /field-notes
 
 [Operating systems](https://github.com/brittneyleighb/notes-on-operating-systems) · [Database design](https://github.com/brittneyleighb/database-design-master-reference) · [Programming languages](https://github.com/brittneyleighb/programming-languages-comparison) · [Git cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)
