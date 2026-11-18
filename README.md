@@ -1,11 +1,6 @@
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────────────────┐
-│  BRITTNEY LEIGH BANNING // SYSTEMS + SOFTWARE LAB                        │
-│  booting creative systems, one strange idea at a time...                 │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+![Animated green phosphor terminal introducing Brittney Leigh Banning](assets/retro-terminal.svg)
 
 **MS Computer Science student; building operating systems, distributed systems, developer tools, and small worlds with personality.**
 
