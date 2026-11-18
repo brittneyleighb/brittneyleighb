@@ -4,9 +4,18 @@
 
 **MS Computer Science student focused on operating systems, distributed systems, developer tools, and interaction design.**
 
-[ BIT FOUNDRY LABS ](https://github.com/bit-foundry-labs)  ·  [ PROJECT INDEX ](#project-index)  ·  [ FIELD NOTES ](#field-notes)
+`$` [cd bit-foundry-labs](https://github.com/bit-foundry-labs) · `$` [ls project-index](#project-index) · `$` [cat field-notes](#field-notes)
 
 </div>
+
+## /now
+
+```text
+$ cat /now
+RESEARCH   Embers Kernel: capabilities, IPC, and memory ownership
+BUILDING   Sakura Study App and Mindful Moments
+STUDYING   Internet Architecture & Protocols
+```
 
 ## /featured/embers-kernel
 
@@ -50,5 +59,19 @@ Early-stage research, not a finished or benchmark-proven kernel.
 ## /field-notes
 
 [Operating systems](https://github.com/brittneyleighb/notes-on-operating-systems) · [Database design](https://github.com/brittneyleighb/database-design-master-reference) · [Programming languages](https://github.com/brittneyleighb/programming-languages-comparison) · [Git cheatsheet](https://github.com/brittneyleighb/git-github-cheatsheet)
+
+<details>
+<summary><code>$ cat operator-notes</code></summary>
+
+<br>
+
+I care about:
+
+- Local-first software that remains useful without a permanent network dependency.
+- Explicit permissions, resource boundaries, and systems whose behavior can be inspected.
+- Reproducible builds and tests that make claims checkable.
+- Interfaces that make powerful technical work feel understandable.
+
+</details>
 
 [**Bit Foundry Labs**](https://github.com/bit-foundry-labs) · [**Email**](mailto:brittneyleighb@gmail.com)
