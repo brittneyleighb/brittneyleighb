@@ -11,7 +11,7 @@
 ```text
 STATUS     : building in public
 SIGNAL     : Rust · Java · Flutter · systems design
-UPLINK     : México ↔ internet
+CONNECTION : open source · experiments · collaboration
 NOW RUNNING: Embers Kernel / Emberglass OS / Mindful Moments
 ```
 
