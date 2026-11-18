@@ -8,6 +8,8 @@
   </a>
 </div>
 
+---
+
 <div align="center">
 
 [![Animated green phosphor terminal showing current technical focus](assets/retro-terminal.svg)](https://github.com/bit-foundry-labs/embers-kernel)
@@ -98,7 +100,6 @@ NEXT MILESTONE  Embers Kernel IPC v1
    user-space services         deterministic tests
 ```
 
-![Animated cascading ASCII character rain](assets/ascii-rain.svg)
 
 [**Embers Kernel**](https://github.com/bit-foundry-labs/embers-kernel) is a Rust-first microkernel research project exploring capability-based isolation, predictable resource control, and a small trusted computing base.
 
@@ -194,11 +195,14 @@ APPLICATION WORK
 
 **Apps + games:** [Café Nebula](https://github.com/brittneyleighb/cafe-nebula) · Ándale (private)
 
+![Animated cascading ASCII character rain](assets/ascii-rain.svg)
+
 ## /off-duty
 
 ```text
 $ cat /off-duty
 INTERESTS  travel · architecture · interior design
+HOBBIES    snowboarding · gym
 ```
 
 <details>
@@ -222,11 +226,11 @@ INTERESTS  travel · architecture · interior design
 - *Walden* — Henry David Thoreau
 - *Ready Player One* — Ernest Cline
 - *Less Is More: How Degrowth Will Save the World* — Jason Hickel
-- [*The Divide: A Brief Guide to Global Inequality and Its Solutions*](https://www.goodreads.com/book/show/32603498-the-divide "The Divide: A Brief Guide to Global Inequality and its Solutions") — Jason Hickel
+- *The Divide: A Brief Guide to Global Inequality and Its Solutions* — Jason Hickel
 - *Harry Potter* — J. K. Rowling
 - *The Prophet* — Khalil Gibran
 - *The Giving Tree* — Shel Silverstein
-- [*Awakening the Luminous Mind: Tibetan Meditation for Inner Peace and Joy*](https://www.goodreads.com/book/show/13227894-awakening-the-luminous-mind "Awakening The Luminous Mind: Tibetan Meditation for Inner Peace and Joy") — Tenzin Wangyal Rinpoche
+- *Awakening the Luminous Mind: Tibetan Meditation for Inner Peace and Joy* — Tenzin Wangyal Rinpoche
 
 </details>
 
