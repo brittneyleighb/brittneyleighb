@@ -10,6 +10,50 @@
 
 </div>
 
+## /route
+
+```text
+$ ./route --interest
+[1] kernels + systems       [2] developer tools
+[3] apps + software design  [4] collaboration
+```
+
+<details>
+<summary><code>[1] open kernels + systems</code></summary>
+
+<br>
+
+Start with [Embers Kernel](https://github.com/bit-foundry-labs/embers-kernel) for Rust, `no_std`, capabilities, memory ownership, and IPC. Then explore the [Raft KV Store](https://github.com/brittneyleighb/raft-project) and [operating-systems notes](https://github.com/brittneyleighb/notes-on-operating-systems).
+
+</details>
+
+<details>
+<summary><code>[2] open developer tools</code></summary>
+
+<br>
+
+[Forge Loop](https://github.com/bit-foundry-labs/forge-loop) explores local agent work with explicit approvals, limits, and execution evidence. Emberglass OS carries related questions into the desktop environment.
+
+</details>
+
+<details>
+<summary><code>[3] open apps + software design</code></summary>
+
+<br>
+
+Mindful Moments, Sakura Study App, and [Café Nebula](https://github.com/brittneyleighb/cafe-nebula) explore bilingual experiences, learning workflows, and expressive interfaces.
+
+</details>
+
+<details>
+<summary><code>[4] open collaboration</code></summary>
+
+<br>
+
+For Embers Kernel, the most useful starting points are Rust/`no_std`, QEMU-based testing, documentation, and review of capability or IPC design. Start with the [contributor guide](https://github.com/bit-foundry-labs/embers-kernel/blob/main/CONTRIBUTING.md).
+
+</details>
+
 ## /now
 
 ```text
@@ -205,6 +249,8 @@ end program flat_white
 $ gfortran -std=f2008 flat_white.f90 && ./a.out
 Flat white ready.
 ```
+
+*Enjoy coding with your coffee.*
 
 </details>
 
