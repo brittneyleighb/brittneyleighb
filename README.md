@@ -71,10 +71,10 @@ For Embers Kernel, the most useful starting points are Rust/`no_std`, QEMU-based
 ```text
 $ cat /now
 RESEARCH    Embers Kernel: capabilities, IPC, and memory ownership
-BUILDING    Sakura Study App: daily study activities and iPad/iPhone release work
+BUILDING    Sakura Study App: Kanban board and iPad/iPhone release work
 SHIPPING    Mindful Moments: bilingual activities and saved journal entries
 MAINTAINING Forge Loop: local agent approvals, limits, and evidence reporting
-STUDYING    Internet Architecture & Protocols
+STUDYING    Internet Architecture & Protocols, Human Computer Interaction & Design
 ```
 
 ```text
