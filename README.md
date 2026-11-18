@@ -201,8 +201,8 @@ APPLICATION WORK
 
 ```text
 $ cat /off-duty
-INTERESTS  travel · architecture · interior design
-HOBBIES    snowboarding · gym
+INTERESTS  architecture · interior design
+HOBBIES    travel · snowboarding · gym · video games
 ```
 
 <details>
