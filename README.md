@@ -1,4 +1,12 @@
-<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="480" height="240" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre">via GIPHY</a></p>
+<div align="center">
+  <a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre">
+    <img
+      src="https://media.giphy.com/media/Nx0rz3jtxtEre/giphy.gif"
+      width="480"
+      alt="Hello there"
+    />
+  </a>
+</div>
 
 <div align="center">
 
