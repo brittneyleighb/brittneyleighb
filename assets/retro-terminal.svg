@@ -15,7 +15,6 @@
       <stop offset="1" stop-color="#000603"/>
     </radialGradient>
   </defs>
-
   <rect width="1200" height="430" rx="10" fill="url(#screen)"/>
   <rect x="16" y="16" width="1168" height="398" rx="5" fill="none" stroke="#2cff81" stroke-opacity=".52"/>
   <g fill="#69ff9f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" filter="url(#glow)">
@@ -24,15 +23,11 @@
     <text x="52" y="151" font-size="18" opacity=".92">[OK] systems software      [OK] distributed systems</text>
     <text x="52" y="180" font-size="18" opacity=".92">[OK] developer tools       [OK] beautiful interfaces</text>
     <text x="52" y="229" font-size="31" letter-spacing="1">BRITTNEY LEIGH BANNING</text>
-    <text x="52" y="263" font-size="17" opacity=".82">MSCS · Rust · Java · Flutter · México ↔ internet</text>
+    <text x="52" y="263" font-size="17" opacity=".82">MSCS · Rust · Java · Flutter · systems design</text>
     <text x="52" y="315" font-size="19">&gt; now compiling: kernels, small worlds, and useful tools</text>
     <text x="52" y="360" font-size="17" opacity=".74">STATUS: ONLINE  ·  SIGNAL: STRONG  ·  MODE: CURIOUS</text>
-    <rect x="630" y="296" width="13" height="23" fill="#69ff9f">
-      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.05s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="630" y="296" width="13" height="23" fill="#69ff9f"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.05s" repeatCount="indefinite"/></rect>
   </g>
   <rect width="1200" height="430" rx="10" fill="url(#scanlines)" opacity=".46"/>
-  <rect x="0" y="0" width="1200" height="430" rx="10" fill="#41ff87" opacity=".07">
-    <animate attributeName="opacity" values=".04;.10;.05;.08;.04" dur="3.6s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0" y="0" width="1200" height="430" rx="10" fill="#41ff87" opacity=".07"><animate attributeName="opacity" values=".04;.10;.05;.08;.04" dur="3.6s" repeatCount="indefinite"/></rect>
 </svg>
