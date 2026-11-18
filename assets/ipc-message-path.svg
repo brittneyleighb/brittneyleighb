@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-labelledby="title desc">
+  <title id="title">Animated IPC message path</title>
+  <desc id="desc">An animated ASCII diagram of a message moving from one user-space service to another through a capability-checked kernel IPC channel.</desc>
+  <defs>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#011108" opacity=".42"/></pattern>
+  </defs>
+  <rect width="960" height="210" rx="8" fill="#020b05"/>
+  <g fill="#69ff9f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" filter="url(#glow)">
+    <text x="34" y="42" font-size="15" opacity=".76">IPC PATH // CAPABILITY-CHECKED MESSAGE TRANSFER</text>
+    <text x="34" y="93" font-size="18">[ service A ] --&gt; [ trusted kernel ] --&gt; [ service B ]</text>
+    <text x="34" y="128" font-size="15" opacity=".82">request           validate capability       deliver</text>
+    <text x="34" y="174" font-size="16">&gt; message</text>
+    <text x="260" y="174" font-size="16" opacity=".72">──────────────────────────────────────────────</text>
+    <text y="174" font-size="16">●
+      <animate attributeName="x" values="142;254;503;749;860;860" keyTimes="0;.22;.50;.78;.95;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.12;.80;.91;.95;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect width="960" height="210" rx="8" fill="url(#scan)" opacity=".4"/>
+</svg>
