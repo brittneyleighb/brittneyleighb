@@ -1,3 +1,5 @@
+<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="480" height="240" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre">via GIPHY</a></p>
+
 <div align="center">
 
 ![Animated green phosphor terminal showing current technical focus](assets/retro-terminal.svg)
