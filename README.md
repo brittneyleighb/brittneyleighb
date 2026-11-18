@@ -25,6 +25,8 @@
    user-space services         deterministic tests
 ```
 
+![Animated ASCII message moving through a capability-checked kernel IPC channel](assets/ipc-message-path.svg)
+
 [**Embers Kernel**](https://github.com/bit-foundry-labs/embers-kernel) is a Rust-first microkernel research project exploring capability-based isolation, predictable resource control, and a small trusted computing base.
 
 Early-stage research, not a finished or benchmark-proven kernel.
