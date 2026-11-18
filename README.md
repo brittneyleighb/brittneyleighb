@@ -195,9 +195,9 @@ APPLICATION WORK
 
 **Apps + games:** [Café Nebula](https://github.com/brittneyleighb/cafe-nebula) · Ándale (private)
 
-![Animated cascading ASCII character rain](assets/ascii-rain.svg)
-
 ## /off-duty
+
+![Animated cascading ASCII character rain](assets/ascii-rain.svg)
 
 ```text
 $ cat /off-duty
