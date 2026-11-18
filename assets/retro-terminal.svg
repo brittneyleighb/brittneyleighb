@@ -1,19 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Brittney Leigh Banning terminal boot screen</title>
-  <desc id="desc">An animated green phosphor terminal display introducing Brittney Leigh Banning's systems and software work.</desc>
+  <title id="title">Retro terminal boot screen</title>
+  <desc id="desc">An animated green phosphor terminal display for systems and software work.</desc>
   <defs>
-    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#011108" opacity=".4"/>
-    </pattern>
-    <radialGradient id="screen">
-      <stop stop-color="#082b16"/>
-      <stop offset=".68" stop-color="#02130a"/>
-      <stop offset="1" stop-color="#000603"/>
-    </radialGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#011108" opacity=".4"/></pattern>
+    <radialGradient id="screen"><stop stop-color="#082b16"/><stop offset=".68" stop-color="#02130a"/><stop offset="1" stop-color="#000603"/></radialGradient>
   </defs>
   <rect width="1200" height="430" rx="10" fill="url(#screen)"/>
   <rect x="16" y="16" width="1168" height="398" rx="5" fill="none" stroke="#2cff81" stroke-opacity=".52"/>
@@ -22,7 +13,7 @@
     <text x="52" y="110" font-size="25">&gt; boot profile --operator brittneyleighb</text>
     <text x="52" y="151" font-size="18" opacity=".92">[OK] systems software      [OK] distributed systems</text>
     <text x="52" y="180" font-size="18" opacity=".92">[OK] developer tools       [OK] beautiful interfaces</text>
-    <text x="52" y="229" font-size="31" letter-spacing="1">BRITTNEY LEIGH BANNING</text>
+    <text x="52" y="229" font-size="29" letter-spacing="1">SYSTEMS // TOOLS // SMALL WORLDS</text>
     <text x="52" y="263" font-size="17" opacity=".82">MSCS · Rust · Java · Flutter · systems design</text>
     <text x="52" y="315" font-size="19">&gt; now compiling: kernels, small worlds, and useful tools</text>
     <text x="52" y="360" font-size="17" opacity=".74">STATUS: ONLINE  ·  SIGNAL: STRONG  ·  MODE: CURIOUS</text>
