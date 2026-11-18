@@ -2,6 +2,8 @@
 
 ![Animated green phosphor terminal showing current technical focus](assets/retro-terminal.svg)
 
+![Rotating roles](assets/role-loop.svg)
+
 **MS Computer Science student focused on operating systems, distributed systems, developer tools, and interaction design.**
 
 `$` [cd bit-foundry-labs](https://github.com/bit-foundry-labs) · `$` [ls project-index](#project-index) · `$` [cat field-notes](#field-notes)
@@ -15,6 +17,12 @@ $ cat /now
 RESEARCH   Embers Kernel: capabilities, IPC, and memory ownership
 BUILDING   Sakura Study App and Mindful Moments
 STUDYING   Internet Architecture & Protocols
+```
+
+```text
+$ git status --short
+LAST SHIP       profile terminal interface · 2026-11-18
+NEXT MILESTONE  Embers Kernel IPC v1
 ```
 
 ## /featured/embers-kernel
@@ -40,15 +48,67 @@ STUDYING   Internet Architecture & Protocols
 
 Early-stage research, not a finished or benchmark-proven kernel.
 
-[Contribute →](https://github.com/bit-foundry-labs/embers-kernel/blob/main/CONTRIBUTING.md) · [Research roadmap →](https://github.com/bit-foundry-labs/embers-kernel/blob/main/docs/CONTRIBUTOR_ROADMAP.md) · [Open issues →](https://github.com/bit-foundry-labs/embers-kernel/issues)
+### /collaborate
 
-## /currently-building
+Interested in helping? The most useful starting points are Rust/`no_std`, QEMU-based testing, documentation, and review of capability or IPC design. Begin with the [contributor guide](https://github.com/bit-foundry-labs/embers-kernel/blob/main/CONTRIBUTING.md), then choose a scoped task from the [roadmap](https://github.com/bit-foundry-labs/embers-kernel/blob/main/docs/CONTRIBUTOR_ROADMAP.md) or [open issues](https://github.com/bit-foundry-labs/embers-kernel/issues).
 
-| Project | Current direction |
-| :-- | :-- |
-| **Emberglass OS** · private | Linux-native, Rust-based desktop environment exploring activity-centered UX and local-first AI boundaries. |
-| **Mindful Moments** · private | Bilingual Flutter mindfulness and journaling app. |
-| **Forge Loop** · private | Local-first agent workbench with explicit approvals, limits, and execution evidence. |
+## /project-map
+
+```text
+SYSTEMS RESEARCH
+├── Embers Kernel ── capability isolation · IPC · memory ownership
+├── Emberglass OS ── desktop UX · local-first AI boundaries
+└── Forge Loop ──── approved local agent execution
+
+APPLICATION WORK
+├── Mindful Moments ─ bilingual mindfulness + journaling
+└── Sakura Study App ─ study workflows for iPad and iPhone
+```
+
+## /project-records
+
+<details>
+<summary><code>$ open embers-kernel --details</code></summary>
+
+<br>
+
+**Stack:** Rust, `no_std`, x86-64, QEMU  
+**Current focus:** capability model, protected memory, IPC guarantees  
+**Public repository:** [bit-foundry-labs/embers-kernel](https://github.com/bit-foundry-labs/embers-kernel)
+
+</details>
+
+<details>
+<summary><code>$ open emberglass-os --details</code></summary>
+
+<br>
+
+**Stack:** Rust, Linux-native desktop technologies  
+**Current focus:** activity-centered UX and local-first AI boundaries  
+**Availability:** private research project
+
+</details>
+
+<details>
+<summary><code>$ open forge-loop --details</code></summary>
+
+<br>
+
+**Current focus:** explicit approvals, execution limits, and evidence reporting for local agent work  
+**Availability:** private developer-tool project
+
+</details>
+
+<details>
+<summary><code>$ open mindful-moments --details</code></summary>
+
+<br>
+
+**Stack:** Flutter, Supabase  
+**Current focus:** bilingual daily activities and saved journal entries  
+**Availability:** private app project
+
+</details>
 
 ## /project-index
 
@@ -71,6 +131,18 @@ I care about:
 - Explicit permissions, resource boundaries, and systems whose behavior can be inspected.
 - Reproducible builds and tests that make claims checkable.
 - Interfaces that make powerful technical work feel understandable.
+
+</details>
+
+<details>
+<summary><code>$ sudo make coffee</code></summary>
+
+<br>
+
+```text
+make: *** No hardware target detected. Stop.
+hint: back to the keyboard.
+```
 
 </details>
 
